@@ -80,7 +80,7 @@ begin
 	twoBitCounter_proc : process(i_clk, i_reset)
 	begin
 		if i_reset = '1' then
-			f_sel <= "00";
+		   f_sel <= "00";
 		elsif rising_edge(i_clk) then
 			f_sel <= f_sel + 1;
 		end if;
