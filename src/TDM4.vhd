@@ -65,7 +65,7 @@ entity TDM4 is
 		   o_sel		: out STD_LOGIC_VECTOR (3 downto 0)	-- selected data line (one-cold)
 	);
 end TDM4;
-
+--
 architecture behavioral of TDM4 is
 
 	signal   f_sel		 : unsigned(1 downto 0)	:= "00"; -- 2 bit counter output to select MUX input

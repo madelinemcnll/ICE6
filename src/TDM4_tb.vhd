@@ -49,7 +49,7 @@ library ieee;
   
 entity TDM4_tb is
 end TDM4_tb;
-
+--
 architecture test_bench of TDM4_tb is 	
   
 	component TDM4 is
